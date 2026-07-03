@@ -1,0 +1,40 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-lg) var(--spacing-md) var(--spacing-2xl);
+}
+
+.app__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl);
+}
+
+@media (min-width: 1024px) {
+  .app__layout {
+    grid-template-columns: 1fr 360px;
+    align-items: start;
+  }
+}
+
+.app__modules {
+  min-width: 0;
+}
+
+.app__sidebar {
+  min-width: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .app__layout {
+    grid-template-columns: 1fr;
+  }
+}
