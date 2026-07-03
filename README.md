@@ -19,7 +19,7 @@ This is a responsive React application for configuring modular insurance product
 
 ## Task Source
 
-This project was created as part of practical training based on the frontend coding challenge from the file `Test task Blitz(1).docx`.
+This project was created as part of practical training based on the frontend coding challenge from the file `Test task Blitz.docx`.
 
 ## Features
 
