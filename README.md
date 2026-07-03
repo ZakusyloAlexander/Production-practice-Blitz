@@ -95,6 +95,5 @@ npm run lint
 
 ## Deployment
 
-The project is prepared for deployment on Vercel.
+[The project is prepared for deployment on Vercel](https://production-practice-blitz.vercel.app/)
 
-After deployment, add the live Vercel URL to this section.
